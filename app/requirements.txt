@@ -1,0 +1,3 @@
+"fastapi[all]"
+pydub
+google-cloud-speech

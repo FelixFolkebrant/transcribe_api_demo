@@ -1,13 +1,15 @@
 # transcribe_api_demo
+
+### Structure
  
-app/
-├──- models/
-│   ├── transcribe_model.py  # Hantering av olika transkriberingsmodeller
-├── utils/
-│   ├── pre_processor.py
-├── main.py           # FastAPI huvudfil
-├── requirements.txt      # Alla Python-beroenden
-└── README.md             # Projektbeskrivning och instruktioner
+app/  
+├──- models/  
+│   ├── transcribe_model.py  # Hantering av olika transkriberingsmodeller  
+├── utils/  
+│   ├── pre_processor.py  
+├── main.py          
+├── requirements.txt  
+└── README.md            
 
 
 ### Usage

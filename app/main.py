@@ -11,7 +11,6 @@ app = FastAPI()
 async def transcribe_audio(file: UploadFile = File(...)):
     transcription = await transcribe_file(file)
     print(file.filename)
-    print(transcription)
     return JSONResponse(content={"transcription": transcription})
 
 async def transcribe_file(file: UploadFile) -> str:
